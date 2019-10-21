@@ -1,11 +1,15 @@
-# Optimisation
-Routing, Inventory and Supply Chain optimisation using heuristics 
+# Business Analytics with Heuristics
+
+This was an old group project at the University of Edinburgh
+
+# Optimization
+Routing, Inventory and Supply Chain optimization using heuristics 
 
 Implementations of various construction heuristics and Local Search algorithms in MATLAB
 
 ## Overview
 
-- This repository contains several of the (Traveling Salesman Problem) projects
+- This repository contains several of the Traveling Salesman Problem projects
 
 - These projects revolved around solving TSP-LIB (see: [TSP-LIB](https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/)) EUC-2D (n ≤ 500) instances by using heuristics
 
@@ -67,9 +71,3 @@ The Steepest Descent algorithm explores the entire search space to identify the 
 The 2-opt algorithm is described by Blazinskas and Misevicius (2011) as simple and in its naive form, involves repeatedly breaking two edges in a tour and reconnecting them in another cost decreasing way until no positive gain 2-opt move can be found. The time complexity for naive 2-opt is 𝑂(𝑛^2). It is outlined by Blazinskas and Misevicius (2011) that when breaking edges in an existing tour, there are (𝑘−1)!∗ 2^((𝑘−1) ) ways to reconnect it, including the initial tour. 
 
 The 3-opt algorithm works in a similar way to the 2-opt algorithm but removes and reconnects three edges rather than two. The time complexity for 3-opt is 𝑂(𝑛^3) but can be improved through techniques that are not explored in this report. It is outlined by Blazinskas and Misevicius (2011) that when breaking edges in an existing tour, there are (𝑘−1)!∗ 2^((𝑘−1) ) ways to reconnect it, including the initial tour. 
-
-
-
-
-    
-
