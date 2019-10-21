@@ -1,6 +1,6 @@
 # Business Analytics with Heuristics
 
-This was an old group project at the University of Edinburgh
+This was an old group project at the University of Edinburgh.
 
 # Optimization
 Routing, Inventory and Supply Chain optimization using heuristics 
